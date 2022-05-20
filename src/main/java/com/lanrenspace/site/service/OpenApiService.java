@@ -25,4 +25,12 @@ public interface OpenApiService {
      * @return
      */
     Mono<ServerResponse> createOption(ServerRequest request);
+
+    /**
+     * 上传文件
+     *
+     * @param request
+     * @return
+     */
+    Mono<ServerResponse> uploadFile(ServerRequest request);
 }

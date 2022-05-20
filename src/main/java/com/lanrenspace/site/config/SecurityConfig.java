@@ -40,7 +40,7 @@ public class SecurityConfig {
                 .and()
                 .authorizeExchange()
                 .pathMatchers(HttpMethod.OPTIONS).permitAll()
-                .pathMatchers("/login", "/openApi/options", "/openApi/createOption").permitAll()
+                .pathMatchers("/login", "/openApi/options", "/openApi/uploadFile").permitAll()
                 .anyExchange()
                 .authenticated()
                 .and().logout().logoutSuccessHandler(new LogoutSuccessHandler())

@@ -21,6 +21,7 @@ public class OpenApiRouters extends ServerRouters {
     @Bean
     public RouterFunction<ServerResponse> apiRouters(OpenApiService openApiService) {
         return this.buildGetRoute("/options", openApiService::getOptions)
-                .and(this.buildPostRoute("/createOption", openApiService::createOption));
+                .and(this.buildPostRoute("/createOption", openApiService::createOption))
+                .and(this.buildPostRoute("/uploadFile", openApiService::uploadFile));
     }
 }
