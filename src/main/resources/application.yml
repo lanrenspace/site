@@ -2,7 +2,7 @@ server:
   port: 8665
 spring:
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/site?useUnicode=true&characterEncoding=UTF-8
+    url: r2dbc:mysql://localhost:3306/site_dev?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     pool:
