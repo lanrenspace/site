@@ -8,6 +8,7 @@ public enum ExceptionDef {
 
     INTERFACE_OVERRIDE(55001, "禁止接口越权!"),
     REQ_PARAMS_IS_NULL(54001, "请求参数不能为空!"),
+    CONFIG_DATA_IS_NULL(54002, "配置数据不能为空!"),
     USER_NOT_EXIST(55002, "用户不存在!"),
     REQ_TOKEN_FORMAT_ERROR(55003, "请求令牌格式错误!"),
     REQ_TOKEN_IS_NULL(55004, "请求令牌不能为空!"),

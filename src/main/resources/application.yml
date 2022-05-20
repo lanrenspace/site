@@ -26,3 +26,9 @@ logging:
     com.lanrenspace.kakami: DEBUG
     org.springframework.data.r2dbc: DEBUG
     org.apache.ibatis.r2dbc: DEBUG
+
+qiNiu:
+  oss:
+    ak: 1
+    sk: 1
+    bucket: a
